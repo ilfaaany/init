@@ -1,0 +1,17 @@
+{
+  "name": "aindrajaya",
+  "version": "1.0.0",
+  "description": "arista first initiation project using javascript and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "diisi",
+    "kata",
+    "kata",
+    "bisa"
+  ],
+  "author": "aindrajaya",
+  "license": "ISC"
+}
