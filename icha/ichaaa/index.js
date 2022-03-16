@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3005;
 
-// let data1 = "String dari variable";
+let data1 = "String dari variable";
 let html1 = 
 `
 <!DOCTYPE html>
@@ -19,13 +19,13 @@ let html1 =
 </html>
 `;
 
-let data = [
-    {"user id" : 1,
-    "id" : 22
-}];
+// let data = [1
+//     {"user id" : 1,
+//     "id" : 22
+// }];
 
 //routes
-app.get("/", (req,res)=> res.send(data));
-// app.get("/baru", (req,res)=> res.send(data1));
+app.get("/", (req,res)=> res.send(data1));
+app.get("/baru", (req,res)=> res.send(html1));
 
 app.listen(port, () => console.log(`This example App listening at http://localhost:${port}`));
