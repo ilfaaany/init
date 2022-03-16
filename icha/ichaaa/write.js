@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require("fs");
 
 const isiKonten = 
 `<!DOCTYPE html>
@@ -10,12 +10,12 @@ const isiKonten =
     <title>Document</title>
 </head>
 <body>
-    
+
 </body>
 </html>
 `;
 
 fs.writeFile(`coba.html`, isiKonten, function (err){
     iff(err) throw err;
-    console.log(`file html creeated`);
+    console.log("file html creeated");
 });
